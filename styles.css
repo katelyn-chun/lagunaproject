@@ -1,0 +1,46 @@
+body {
+    margin-top: 20px; /* This margin just makes the text easier to read. You can remove it if you want since it can mess with your other styles. */
+  }
+  
+  .box {
+    background-color: rgba(139, 176, 125, 0.813);
+    min-height: 30px;
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
+  }
+  
+  .ti {
+    font-family: monospace;
+    font-size: large;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .heads {
+    font-family: system-ui;
+    text-align: left;
+  }
+  
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .vid {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+  }
+  
+  .vid iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
