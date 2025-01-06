@@ -8,6 +8,8 @@ body {
     font-size: large;
     text-align: center;
     padding: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, serif;
   }
   
@@ -16,31 +18,37 @@ body {
     font-size: large;
     padding: 10px;
     text-align: left;
+    margin-left: 40px;
   }
   
   .heads {
     font-family: system-ui;
     text-align: left;
+    margin-bottom: 15px;
   }
   
   .container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 15px;
+    width: 95%;
+    max-width: fit-content;
+    justify-content: space-evenly;
   }
   
+  .row {
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .vid {
     position: relative;
     padding-bottom: 56.25%;
-    height: 0;
     overflow: hidden;
+    width: 100%;
   }
   
   .vid iframe {
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
   }
